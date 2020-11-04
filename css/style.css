@@ -371,6 +371,11 @@ footer .others .current {
     padding: 15px;
   }
 
+  footer .song {
+    width: 200px
+    padding: 0px;
+  }
+
   footer .time i{
     font-size: 14px;
     margin: 0 5px;
@@ -378,5 +383,30 @@ footer .others .current {
   footer .time .bottom .time-bar {
     width: 30%;
   }
+
+}
+
+@media screen and (max-width: 458px) {
+  footer .song {
+    width: 100px;
+    flex-direction: column;
+  }
+  footer .song .img {
+    display: none;
+  }
+  footer .icons {
+    margin: 5px auto;
+  }
+
+  footer .others {
+    line-height: 1px;
+    width: 100px;
+    text-align: center;
+  }
+  footer .others i {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
 }
 /* /smartphone */
