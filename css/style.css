@@ -372,16 +372,11 @@ footer .others .current {
   }
 
   footer .time i{
-    font-size: 10px;
+    font-size: 14px;
+    margin: 0 5px;
   }
   footer .time .bottom .time-bar {
     width: 30%;
-  }
-}
-
-@media screen and (max-width: 551px) {
-  footer .time i {
-    margin: 0 5px;
   }
 }
 /* /smartphone */
