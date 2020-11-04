@@ -319,11 +319,26 @@ footer .others .current {
     display: none;
   }
 
+
   .main-content .container .container-blocks {
     flex-wrap: wrap;
   }
 
   .main-content .container .blocks {
     width: 23%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-content .container .blocks {
+    width: calc(50% - 10px);
+  }
+  .main-content .container .container-blocks {
+    justify-content: flex-end;
+    padding: 0 15px 0 0;
+  }
+
+  .ghost {
+    display: none;
   }
 }
