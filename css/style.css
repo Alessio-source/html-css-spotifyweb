@@ -201,13 +201,43 @@ footer .time .bottom .time-bar {
   display: inline-block;
   width: 70%;
   height: 5px;
-  background-color: white;
-  margin-top: 22px;
+  background-color: #5A5A5A;
   border-radius: 5px;
   margin: 0 10px;
 }
-footer .bottom span:not(:nth-child(2)) {
+footer .bottom .time-number {
   vertical-align: middle;
   font-size: 13px;
+}
+
+footer .others {
+  line-height: 90px;
+  width: 250px;
+}
+footer .others i {
+  vertical-align: middle;
+}
+footer .others i:nth-child(2) {
+  margin: 0 5px;
+}
+footer .others .time-bar {
+  display: inline-block;
+  width: 50%;
+  height: 5px;
+  background-color: #5A5A5A;
+  border-radius: 5px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+footer .time-bar {
+  overflow: hidden;
+  text-align: left;
+}
+footer .current-time {
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  vertical-align: top;
 }
 /* /specifici */
