@@ -91,7 +91,7 @@ nav > ul:first-of-type {
 nav > ul:first-of-type > li {
   margin: 10px 0;
 }
-nav > ul:first-of-type > li > a > img {
+nav > ul:first-of-type > li > img {
   vertical-align: middle;
   height: 30px;
   width: 30px;
@@ -312,6 +312,7 @@ footer .others .current {
 }
 /* /specifici */
 
+/* ipad pro */
 @media screen and (max-width: 1024px) {
 
   .ghost:nth-child(6),
@@ -328,7 +329,9 @@ footer .others .current {
     width: 23%;
   }
 }
+/* /ipad pro */
 
+/* ipad */
 @media screen and (max-width: 900px) {
   .main-content .container .blocks {
     width: calc(50% - 10px);
@@ -342,3 +345,43 @@ footer .others .current {
     display: none;
   }
 }
+/* /ipad */
+
+/* smartphone */
+@media screen and (max-width: 768px) {
+  nav ul a,
+  nav h3,
+  nav section  {
+    display: none;
+  }
+
+  nav {
+    width: 60px;
+  }
+
+  nav > img {
+    margin-left: -7px;
+  }
+
+  .main-content {
+    width: calc(100% - 60px);
+  }
+
+  .main-content .container {
+    padding: 15px;
+  }
+
+  footer .time i{
+    font-size: 10px;
+  }
+  footer .time .bottom .time-bar {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 551px) {
+  footer .time i {
+    margin: 0 5px;
+  }
+}
+/* /smartphone */
