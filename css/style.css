@@ -95,6 +95,7 @@ aside > ul:last-of-type > li {
 }
 
 aside > section {
+  padding-top: 10px;
   margin-top: auto;
 }
 aside > section > .top {
