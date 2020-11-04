@@ -311,3 +311,19 @@ footer .others .current {
   width: 50%;
 }
 /* /specifici */
+
+@media screen and (max-width: 1024px) {
+
+  .ghost:nth-child(6),
+  .ghost:nth-child(5) {
+    display: none;
+  }
+
+  .main-content .container .container-blocks {
+    flex-wrap: wrap;
+  }
+
+  .main-content .container .blocks {
+    width: 23%;
+  }
+}
