@@ -14,18 +14,18 @@ a {
   text-decoration: none;
 }
 
-aside a {
+nav a {
   color: #A3A3A3;
 }
 
-aside h3 {
+nav h3 {
   text-transform: uppercase;
 }
 
-aside > ul {
+nav > ul {
   list-style: none;
 }
-aside li.active::before {
+nav li.active::before {
   content: "";
   background-color: #ADFD31;
   margin-left: -15px;
@@ -33,7 +33,7 @@ aside li.active::before {
   padding: 10px 1px;
   vertical-align: middle;
 }
-aside li.active > a {
+nav li.active > a {
   color: white;
 }
 /* /generici */
@@ -51,7 +51,7 @@ main {
   overflow: hidden;
 }
 
-aside {
+nav {
   display: flex;
   flex-direction: column;
   width: 250px;
@@ -60,24 +60,24 @@ aside {
   padding: 15px 15px 0 15px;
   overflow-y: hidden;
 }
-aside > img {
+nav > img {
   width: 150px;
 }
 
-aside > ul:first-of-type {
+nav > ul:first-of-type {
   margin: 30px 0;
 }
-aside > ul:first-of-type > li {
+nav > ul:first-of-type > li {
   margin: 10px 0;
 }
-aside > ul:first-of-type > li > a > img {
+nav > ul:first-of-type > li > a > img {
   vertical-align: middle;
 }
 
-aside > ul:last-of-type {
+nav > ul:last-of-type {
   overflow-y: scroll;
 }
-aside > ul:last-of-type .fas.fa-plus {
+nav > ul:last-of-type .fas.fa-plus {
   font-size: 20px;
   vertical-align: middle;
   background-color: #A3A3A3;
@@ -87,31 +87,31 @@ aside > ul:last-of-type .fas.fa-plus {
   text-align: center;
   line-height: 40px;
 }
-aside > ul:last-of-type > li:first-child {
+nav > ul:last-of-type > li:first-child {
   margin: 20px 0;
 }
-aside > ul:last-of-type > li {
+nav > ul:last-of-type > li {
   margin: 15px 0;
 }
 
-aside > section {
+nav > section {
   padding-top: 10px;
   margin-top: auto;
 }
-aside > section > .top {
+nav > section > .top {
   border-bottom: 1px solid #A3A3A3;
 }
-aside > section > .top i {
+nav > section > .top i {
   margin-bottom: 10px;
 }
-aside > section > .bottom img {
+nav > section > .bottom img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   vertical-align: middle;
   margin-right: 10px;
 }
-aside > section > .bottom p {
+nav > section > .bottom p {
   color: white;
   font-weight: 700;
   margin-top: 10px;
