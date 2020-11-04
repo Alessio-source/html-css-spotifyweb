@@ -48,6 +48,7 @@ main {
   display: flex;
   height: calc(100vh - 90px);
   flex-shrink: 3;
+  overflow: hidden;
 }
 
 aside {
@@ -127,11 +128,9 @@ aside > section > .bottom p {
   background-color: rgba(0, 0, 0, 0.5);
   text-align: right;
   height: 100px;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
-  z-index: 0;
-  width: calc(100% - 250px);
   left: 250px;
 }
 .main-content > .info > a {
