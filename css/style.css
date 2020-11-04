@@ -4,7 +4,6 @@
   padding: 0;
   margin: 0;
 }
-
 body {
   font-family: 'Ubuntu', sans-serif;
   font-size: 15px;
@@ -14,14 +13,14 @@ a {
   text-decoration: none;
 }
 
+
+
 nav a {
   color: #A3A3A3;
 }
-
 nav h3 {
   text-transform: uppercase;
 }
-
 nav > ul {
   list-style: none;
 }
@@ -35,6 +34,15 @@ nav li.active::before {
 }
 nav li.active > a {
   color: white;
+}
+
+
+
+footer .current {
+  display: inline-block;
+  height: 100%;
+  background-color: white;
+  vertical-align: top;
 }
 /* /generici */
 
@@ -209,6 +217,9 @@ footer .bottom .time-number {
   vertical-align: middle;
   font-size: 13px;
 }
+footer .time .current {
+  width: 20%;
+}
 
 footer .others {
   line-height: 90px;
@@ -233,11 +244,7 @@ footer .time-bar {
   overflow: hidden;
   text-align: left;
 }
-footer .current-time {
-  display: inline-block;
-  width: 20%;
-  height: 100%;
-  background-color: white;
-  vertical-align: top;
+footer .others .current {
+  width: 50%;
 }
 /* /specifici */
