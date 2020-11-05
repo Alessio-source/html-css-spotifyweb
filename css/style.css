@@ -115,9 +115,6 @@ nav .fas.fa-plus {
 nav > ul:last-of-type {
   overflow-y: scroll;
 }
-nav > ul:last-of-type > li:first-child {
-  margin: 20px 0;
-}
 nav > ul:last-of-type > li {
   margin: 15px 0;
 }
@@ -338,6 +335,11 @@ footer .others .current {
 
 /* ipad */
 @media screen and (max-width: 900px) {
+  nav > a:first-of-type {
+    display: none;
+  }
+
+  
   .main-content .container .blocks {
     width: calc(50% - 10px);
   }
