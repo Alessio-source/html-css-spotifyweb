@@ -307,6 +307,7 @@ footer .time .bottom .time-bar {
   background-color: #5A5A5A;
   border-radius: 5px;
   margin: 0 10px;
+  vertical-align: middle;
 }
 footer .bottom .time-number {
   vertical-align: middle;
@@ -336,7 +337,6 @@ footer .others .time-bar {
   margin-left: 5px;
 }
 footer .time-bar {
-  overflow: hidden;
   text-align: left;
   cursor: pointer;
 }
@@ -487,5 +487,17 @@ footer .others .current {
 
   footer .time-bar:hover .current {
     background-color: #ADFD31;
+  }
+
+  footer .time-bar:hover .current::after {
+    content: "";
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    float: right;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -5px;
+    margin-right: -2px;
   }
 /* /animazioni */
