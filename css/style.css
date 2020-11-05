@@ -46,10 +46,6 @@ nav li.active > a {
   margin: 2px auto;
   background-color: #ADFD31;
 }
-.main-content ul:first-of-type li.active > a {
-  color: white;
-}
-
 
 footer .current {
   display: inline-block;
@@ -339,7 +335,7 @@ footer .others .current {
     display: none;
   }
 
-  
+
   .main-content .container .blocks {
     width: calc(50% - 10px);
   }
@@ -417,3 +413,17 @@ footer .others .current {
 
 }
 /* /smartphone */
+
+
+
+/* animazioni */
+ nav a:hover{
+   color: white;
+ }
+
+ .main-content ul:first-of-type li > a:hover {
+   color: white;
+ }
+
+
+/* /animazioni */
