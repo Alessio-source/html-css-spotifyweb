@@ -416,8 +416,8 @@ footer .others .current {
   }
 
   footer .song {
-    width: 200px
-    padding: 0px;
+    width: 200px;
+    padding: 10px;
   }
 
   footer .time i{
