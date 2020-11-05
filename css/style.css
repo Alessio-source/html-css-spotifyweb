@@ -6,7 +6,6 @@
 }
 body {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 15px;
 }
 
 a {
@@ -164,6 +163,7 @@ nav > section > .bottom p {
   line-height: 100px;
   border-radius: 50px;
   margin-right: 5px;
+  transition: font-size 0.2s linear;
 }
 
 .main-content ul:first-of-type {
@@ -425,5 +425,7 @@ footer .others .current {
    color: white;
  }
 
-
+  .main-content > .info > a:hover {
+    font-size: 20px;
+  }
 /* /animazioni */
