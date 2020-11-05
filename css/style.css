@@ -286,6 +286,10 @@ footer .time {
   width: 50%;
 }
 
+footer .time .top {
+  height: 45px;
+  line-height: 45px;
+}
 footer .time i{
   color: white;
   font-size: 20px;
@@ -296,6 +300,7 @@ footer .time i{
 footer .time i:nth-child(3) {
   font-size: 30px;
 }
+
 footer .time .bottom {
   height: 45px;
   line-height: 45px;
